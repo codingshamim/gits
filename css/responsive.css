@@ -1,0 +1,271 @@
+@media (max-width:1024px) {
+    .container{
+      padding: 50px 50px;
+    }
+
+    .newBlog .row{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
+   
+    
+}
+
+@media (max-width:1140px) {
+    .container{
+      padding: 50px 50px;
+    }
+
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .container{
+        padding: 50px 50px;
+    }
+    .newsRight .btn{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    
+    .newsRight input{
+        width: 100%;
+    }
+    
+    .btnContainer{
+       position: fixed;
+       bottom: 50px;
+       z-index: 101;
+        left: -100%;
+        transition: all 1s linear;
+    }
+    .mostViewsContent{
+        width: 100%;
+        margin-top: 30px;
+    }
+.mostViewsImg{
+    margin-top: 50px;
+    padding: 0;
+}
+.mostViewsImg img{
+    width: 100%;
+
+}
+    .btnContainer.activeBtn{
+        left: 47%;
+        
+    }
+    .resCol{
+        flex-direction: column;
+    }
+    .featureBox{
+        width: 100%;
+    }
+
+    .blogCard{
+        width: 300px;
+    }
+.homeContent, .homeImg{
+    width: 100%;
+}
+.homeContent{
+    margin-top: 50px;
+}
+
+.homeImg{
+    padding: 0;
+}
+    .menuContainer{
+        width: 40px;
+        height: 40px;
+        display: block;
+      
+
+    }
+    .menuContainer ion-icon{
+        font-size: 28px;
+    }
+
+  .menuBar{
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: var(--text-color);
+    top: 0;
+    left: -100%;
+    z-index: 99;
+    position: fixed;
+    transition: all 0.5s linear;
+  }
+  .menuBar.activeMenu{
+    left: 0;
+  }
+  .menuBar li {
+    margin-top: 40px;
+  }
+  .menuBar li a{
+    color: #fff;
+  }
+    .closeBtn{
+        width: 40px;
+        display: block;
+        height: 40px;
+        border: none;
+        outline: none;
+        background: transparent;
+        position: absolute;
+        top: 20px;
+        color: var(--light-color);
+        right: 20px;
+
+    }
+    .closeBtn ion-icon{
+        font-size: 28px;
+    }
+    .wrapper1, .wrapper2{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:425px) {
+    .container{
+      padding: 50px 20px;
+    }
+    .logo{
+        width: 80px;
+    }
+    .mobileRes{
+        flex-direction: column;
+    }
+ 
+    .authorBox h5 span{
+        margin-left: 0px;
+    }
+    .newBlog .row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+.newsRight .btn{
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.newsRight input{
+    width: 100%;
+}
+
+
+.blogCardContent h1{
+    font-size: 14px;
+    margin-left: 0;
+    width: 100%;
+}
+.blogCardContent{
+    margin-left: 0;
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+}
+.cardImg{
+    width: 100%;
+}
+.blogCardContent h1{
+    font-weight: 500px;
+    margin-top: 5px;
+}
+.blogCardItem{
+    padding: 30px;
+}
+.cardImg{
+    width: 100%;
+   
+}
+
+
+  
+
+    
+}
+
+
+
+@media (max-width:320px) {
+    .mobileTwoRes{
+     flex-direction: column;
+    }
+    .featureImg img{
+     width: 100%;
+    }
+    
+    .blogCard{
+     width: 200px;
+ }
+ .blogCard h1{
+    font-size: 14px;
+ }
+ .blogCard .titleBar{
+    font-size: 14px;
+ }
+
+ .cateBtnContainer a{
+    font-size: 12px;
+ }
+ .homeTextContent h1 a{
+    font-size: 28px;
+ }
+ .cateContent {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+ }
+ .cateContent p{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 0px;
+ }
+
+ .homeTextContent  p{
+    font-size: 14px;
+ }
+
+ .featureImg img{
+    height: 250px;
+ }
+   .mostViewsContenttext h1 a{
+    font-size: 28px;
+   } 
+   .mostViewsContenttext p{
+    font-size: 18px;
+   }
+
+   footer p{
+    font-size: 14px;
+   }
+
+   .blogTitle h1{
+    font-size: 18px;
+   }
+   .ckContentMain{
+    font-size: 15px;
+   }
+
+     
+ }
+ 
